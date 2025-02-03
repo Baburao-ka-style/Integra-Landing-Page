@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+body{
+    background-color: black;
+    padding: 3rem;
+    height: 100vh;
+}
