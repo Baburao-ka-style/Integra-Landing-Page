@@ -1,20 +1,18 @@
 import React from "react";
 import { SiAirchina } from "react-icons/si";
 import { FiArrowUpRight } from "react-icons/fi";
+import AnalyticsBtn from "./AnalyticsBtn";
+import EmailMarketingBtn from "./EmailMarketingBtn";
+import SeoBtn from "./SeoBtn";
 
 function Footer() {
   return (
     <div className="flex justify-evenly items-center text-white w-full bg-transparent h-50 ">
       <div className="flex-col flex gap-2 justify-start w-80 p-2 ">
-        <button className="bg-transparent border-1 border-white hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full">
-          WEB ANALYTICS
-        </button>
-        <button className="bg-transparent border-1 border-white hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full">
-          EMAIL MARKETING
-        </button>
-        <button className="bg-transparent border-1 border-white hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full">
-          SEO 2.0
-        </button>
+        <AnalyticsBtn/>
+        <EmailMarketingBtn/>
+        <SeoBtn/>
+        
       </div>
       <div className="flex gap-2 justify-center w-full">
         <a
